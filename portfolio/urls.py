@@ -23,7 +23,10 @@ from blog import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
-    path('fuckdjango', include ('blog.urls')),
+    path('path1', include ('blog.urls')),
+    path('skills', views.skills, name='skills'),
+    path('ask',views.ask, name='ask'),
+
     
     
     

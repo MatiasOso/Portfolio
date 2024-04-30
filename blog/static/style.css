@@ -21,9 +21,7 @@
 .cube {
     height: 5vh;
     width: 12vw; /* Reduje el ancho del cuadro para hacerlo más pequeño */
-    position: absolute;
-    /* top: 50%;  */
-    /* left: 50%;  */
+    position: relative;
     transform: translate(-50%, -50%);
     perspective: 1000px;
 }
